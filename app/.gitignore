@@ -1,0 +1,58 @@
+/build/
+*/build/
+
+# Ignore Android Studio specific files
+/.idea/
+/.idea/*
+*.iml
+
+# Ignore Gradle specific files
+/.gradle/
+/gradle/
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+
+# Ignore local.properties (local machine-specific file, contains SDK path)
+local.properties
+
+# Ignore Android cache & logs
+/.cxx/
+*.hprof
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Ignore Kotlin specific metadata and other compiled classes
+*.kotlin_metadata
+*.class
+
+# Ignore Virtual Device and emulator files
+/captures/
+/*.qemu
+
+# Ignore user-specific configuration files
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/libraries/
+/.idea/modules.xml
+
+# Ignore NDK (Native Development Kit) builds if used
+.externalNativeBuild/
+
+# Ignore build output and intermediates from libraries
+/output.json
+
+# Ignore miscellaneous operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore macOS-specific files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Ignore keystore files (very sensitive and should not be committed)
+*.jks
+*.keystore
